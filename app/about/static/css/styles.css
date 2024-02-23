@@ -1,0 +1,121 @@
+body {
+    background-color: #23252C;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF;
+}
+
+/* Container */
+.Container {
+    width: 317px;
+    background-color: #1A1B21;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+}
+
+/* Info --------------------------------- */
+.Info {
+    display: grid;
+    place-items: center;
+}
+
+.Info h5 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Photo {
+    width: 317px;
+}
+
+.Info h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.Info h3 {
+    font-size: 12.8px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    color: #F3BF99;
+}
+
+.Info h5 {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.info--buttons {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.info--buttons > * {
+    display: inline-block;
+    width: 115px;
+    padding:9px 0;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    margin-inline-end: 10px;
+    margin-inline-start: 10px;
+    border-radius: 5px;
+}
+
+.info--buttons svg {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.Email {
+    background-color: #FFFFFF;
+    color: #374151;
+}
+
+.LinkedIn {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+/* About ---------------------- */
+.Section {
+    margin: 0 35px;
+}
+
+.Section h4 {
+    margin-bottom: 5px;
+}
+
+.Section p {
+    font-size: 10.24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer -------------------- */
+.Footer {
+    margin: 0;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #161619;
+}
+
+.Footer ul {
+    padding: 0 70px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .Footer li {
+
+} */
