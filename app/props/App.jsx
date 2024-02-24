@@ -3,7 +3,8 @@ import Jokes from "./components/Jokes"
 export default function App () {
     return (
         <>
-            <Jokes 
+            <h1>props</h1>
+            {/* <Jokes 
                 joke={<><h3>Joke 1</h3><p><strong>Setup: </strong>I got my daugther a fridge for her birthday.</p><p><strong>Punchline:</strong>I can't wait to see her face light up when she opens it.<hr/></p></>} 
             />
             <Jokes 
@@ -17,7 +18,7 @@ export default function App () {
             />
             <Jokes 
                 joke={<><h3>Joke 5</h3><p><strong>Setup:</strong> What's the best thing about Switzerland?</p><p><strong>Punchline:</strong> I don't know, but the flag is a big plus!<hr/></p></>}
-            />
+            /> */}
         </>
     )
 }
