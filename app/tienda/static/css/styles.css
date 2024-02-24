@@ -1,0 +1,86 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color:rgb(146, 125, 125);
+}
+
+.Container {
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 10px;
+}
+
+.nav {
+    height: 70px;
+    padding: 20px 36px;
+    display: flex;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1) ;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section img {
+    margin-top: 20px;
+    align-self: center;
+    height: 232px;
+}
+
+.section h1 {
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-size: 36px;
+}
+
+.section p {
+    margin: 0 180px 0 40px;
+}
+
+/* Card ----------------------- */
+.Card--container {
+    display: inline-block;
+}
+
+.Card {
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.status {
+    background-color: white;
+    position: absolute;
+    padding: 5px;
+    margin: 7px;
+    font-size: 10.24px;
+}
+
+.Photo {
+    margin-bottom: 10px;
+}
+
+.star {
+    height: 12px;
+    /* vertical-align: middle; */
+    margin-right:3px;
+}
+
+.Card p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.Location {
+    color: #918E9B;
+}

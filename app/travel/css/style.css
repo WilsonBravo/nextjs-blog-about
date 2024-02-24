@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+   
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.header--title {
+    margin-left: 10px;
+    font-size: 14.46px;
+    font-weight: normal;
+    letter-spacing:-1px;
+}
+
+.section {
+    padding: 20px 40px;
+    display: grid;
+    place-content: center;
+}
+
+.card {
+    display: flex;
+    height: 168px;
+    width: 470px;
+    margin: 20px 0;
+}
+
+.card--info {
+    margin: 20px 0;
+}
+
+.card--photo {
+    width: 125px;
+    object-fit:cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.location {
+    font-size: 10.24px;
+    margin: 0;
+}
+
+.card--location {
+    margin: 0 10px 0 3px;
+}
+
+.card--aref a:link {
+    color: #918E9B;
+}
+
+.card--aref a:visited {
+    color: #403e44;
+}
+
+.card--title {
+    margin: 10px 0;
+}
+
+.card--timeRange, .card--description {
+    font-size: 10.24px;
+}
+
+.card--timeRange {
+    font-weight: bold;
+}
